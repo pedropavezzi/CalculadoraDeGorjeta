@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>Calculadora de Gorjeta</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">CALCULE SUA GORJETA </h1>
+
+        <section>
+            <h2 class="margeForm"> INSIRA ABAIXO OS VALORES DA CONTA</h2>
+            <form>
+                <input id="valor" name="value" type="number" placeholder="Qual o valor da conta?">
+                <input id="amount" name="amount" type="number" placeholder="Quantas pessoas para dividir a conta?">
+                <select id="atendimento" class="atendimento" name="percentage">
+                    <option value="0"> Escolha a Qualidade do Atendimento</option>
+                    <option value="5"> Ruim demais, 5% :(</option>
+                    <option value="10"> Foi okay, 10% :)</option>
+                    <option value="15"> Excelente, 15% :o </option>
+                </select>
+                <input onclick="calcular()" type="button" value="Calcular"> </input>
+            </form>
+
+            <div id="resultado" class="result">
+                <script src="./script.js"></script> 
+                <div id="garcom">
+                    <script src="./script.js"></script>
+                        <img id = "foto"   src="./assets/esperando.png" width="400" height="150"/>
+                </div> 
+            </div>
+
+        </section>
+    </div>
+
+</body>
+
+</html>
+
+
+</html>
