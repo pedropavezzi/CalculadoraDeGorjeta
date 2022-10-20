@@ -1,5 +1,10 @@
+html{
+    background-color: rgb(173, 173, 173);
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif
+  
 }
 
 .container {
@@ -25,23 +30,32 @@ input, button {
     display: block;
     width: 100%;
     margin-bottom: 5px;
+    border-radius: 1px;
 }
 select{
     text-align: center;
     box-sizing: border-box;
     display: block;
     margin: auto;
-    width: 100%;
+    width: 102.2%;
     margin-bottom: 5px;
+    border-radius: 1px;
+}
+.acaoCalcular{
+    border-radius: 1px;
+    text-align: center;
+    width: 102.2%;
+    
 }
 
 .result{
     max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 15px;
+    font-size: 25px;
 }
-.garcom{
-max-width: 100%;
+#foto{
+width: 250px;
+height: auto;
 
 }

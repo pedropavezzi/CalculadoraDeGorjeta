@@ -10,13 +10,14 @@ function calcular() {
     let amount = inputAmount.value;
     let atendimento = inputAtendimento.value;
     let gorjeta = (valor / amount) * atendimento / 100
+    
 
-    let totalGorjeta = gorjeta / amount
+    let totalGorjeta = valor * atendimento / 100
 
     resultado.innerHTML = `<p> R$ ${gorjeta} para cada pessoa na mesa</p>`
-
+    resultado.innerHTML += `<p> O valor total da gorjeta foi de R$ ${totalGorjetaFormatada}</p>`
+    var TotalGorjetaFormatada = totalGorjeta.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
 }
-
 function mudarFoto() {
     let atendimento = inputAtendimento.value;
 

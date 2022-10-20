@@ -20,21 +20,18 @@
                 <input id="valor" name="value" type="number" placeholder="Qual o valor da conta?">
                 <input id="amount" name="amount" type="number" placeholder="Quantas pessoas para dividir a conta?">
                 <select id="atendimento" class="atendimento" name="percentage">
-                    <option value= 0> Escolha a Qualidade do Atendimento</option>
-                    <option value= 5> Ruim demais, 5% :(</option>
-                    <option value= 10> Foi okay, 10% :)</option>
-                    <option value= 15> Excelente, 15% :o </option>
+                    <option value=0> Escolha a Qualidade do Atendimento</option>
+                    <option value=5> Ruim demais, 5% &#x1f61e; </option>
+                    <option value=10> Foi okay, 10% &#x1f610; </option>
+                    <option value=15> Excelente, 15% &#x1f60A; </option>
                 </select>
-                <input onclick="calcular(); mudarFoto()" type="button" value="Calcular"> </input>
+                <input onclick="calcular(); mudarFoto()" type="button" class="acaoCalcular" value="Calcular"> </input>
             </form>
-
             <div id="resultado" class="result">
-                               
             </div>
             <div id="garcom">
-               
-                <img id = "foto"   src="./assets/esperando.png" width="400" height="150"/>  
-            </div> 
+                <img id="foto" src="./assets/esperando.png" />
+            </div>
             <script src="./script.js"></script>
         </section>
     </div>
